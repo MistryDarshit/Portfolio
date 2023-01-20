@@ -27,6 +27,11 @@ const Skills = () => {
       level: "Good",
       count: 50,
     },
+    {
+      logo: "logo-figma",
+      level: "Beginer",
+      count: 20,
+    },
   ];
   return (
     <section id="skills" className="py-10 bg-gray-800 relative">

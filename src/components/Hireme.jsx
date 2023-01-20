@@ -13,11 +13,12 @@ const Hireme = () => {
       <div>
         <h2 className='text-2xl font-semibold'>Do You want Any Work from me?</h2>
         <p className=" lg:text-left text-justifymax-w-lg text-sm mt-4 text-gray-200 leading-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia perferendis eos inventore et nisi nobis excepturi ad fugit sed accusantium suscipit animi cumque dolorum, veritatis voluptatibus officia qui dolorem, odit aspernatur perspiciatis?
+        Work is an essential part of our lives, it is not only a source of income but also an opportunity for personal and professional growth. It allows us to develop new skills, build relationships, and contribute to the success of a team or organization.
+        Do You Have Any Work for me?
         </p>
         <button className='bg-cyan-600 px-4 py-2 rounded-lg text-white hover:bg-cyan-500 mt-8'>Say Hello</button>
       </div>
-      <img src={{}} alt="HireMe" className='lg:h-[32rem] h-80 lg:absolute bottom-0 -right-3 object-cover'/>
+      {/* <img src={{}} alt="HireMe" className='lg:h-[32rem] h-80 lg:absolute bottom-0 -right-3 object-cover'/> */}
     </div>
    
    </section>

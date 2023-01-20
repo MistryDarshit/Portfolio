@@ -1,6 +1,6 @@
 import React from 'react'
 import { About, Bot, Contect, Footer, Hero, Hireme, Navbar, Project, Skill} from './components'
-import './App.css'
+// import './App.css'
 import rolly from 'rolly.js';
 
 

@@ -15,12 +15,12 @@ const Hero = () => {
       className="min-h-screen flex py-10 md:flex-row flex-col items-center bg-gray-800"
     >
       <div className="flex-1 flex items-center justify-center h-full">
-        {/* <img src={hero} alt="" className="md:w-11/12 h-full object-cover" /> */}
+        <img src={hero} alt="" className="md:w-11/12 h-full object-cover" />
       </div>
       <div className="flex-1">
         <div className="md:text-left text-center">
-          <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">
-            <span className="text-cyan-600 md:text-6xl text-5xl ">
+          <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold md:top-3">
+            <span className="text-cyan-600 md:text-6xl relative top-3 text-5xl ">
               Hello!
               <br />
             </span>

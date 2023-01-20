@@ -1,6 +1,7 @@
 import React from 'react'
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
+import about from '../assets/about.png';
 
 const About = () => {
   const info = [
@@ -26,7 +27,7 @@ const About = () => {
           <div className='p-2'>
             <div className="text-gray-300 my-3 ">
             <p className='leading-7 text-justify w-11/12 mx-auto'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ad rem asperiores similique voluptatem? Deserunt inventore earum ipsum assumenda dolores, nesciunt, aspernatur sapiente, maiores optio ea nam. Tempore quam dignissimos amet ipsam?
+            As a web developer, you possess a unique set of skills and experiences that make you an asset to any organization. Your proficiency in languages such as HTML, CSS, and JavaScript allows you to create visually-appealing, responsive websites that are optimized for both desktop and mobile devices. 
             </p>
             </div>
             <div className='flex mt-10 items-center gap-7 '>
@@ -53,7 +54,7 @@ const About = () => {
             </div>
             <div className='flex-1  md:mt-0 mt-6 flex justify-center items-center'>
                 <div className="lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm  after::content-['']  after::w-full after::left-0 after::top-0 after::rounded-xl after::rotate-12 after::h-full after::absolute after::bg-grey-600 after::-z-10">
-                  <img src={{}} alt="Img"  className='w-full object-cover bg-cyan-600 rounded-xl'/>
+                  <img src={about} alt="Img"  className='w-full object-cover bg-cyan-600 rounded-xl'/>
                 </div>
             </div>
           </div>
