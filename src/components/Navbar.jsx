@@ -2,10 +2,12 @@ import React from 'react'
 import { useEffect } from 'react'
 import { useState } from 'react'
 import { AiOutlineMenu } from "react-icons/ai"
+import {CiDark} from "react-icons/ci"
 
 const Navbar = () => {
   const [sticky,setSticky] = useState(false)
   const [open,setOpen] = useState(false)
+  const [darkMode , setDarkmode] = useState(true)
   const menuLinks = [
     {
       name : "HOME" , Link: "#home"
@@ -42,6 +44,7 @@ const Navbar = () => {
                   <a href={menu?.Link} > {menu?.name}</a>
                 </li>
               ) ) }
+              <li className='pr-3 font-medium  md:block hidden'> <CiDark/></li>
           </ul>
         </div>
         <div 

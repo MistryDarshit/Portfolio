@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  background-color: #1F2937;
+}
 
 /* @layer components {
 html {
